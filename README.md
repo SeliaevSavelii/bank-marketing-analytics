@@ -28,12 +28,15 @@ It combines **Python-based data analysis** and an **interactive Power BI dashboa
 ---
 
 ### Project Structure
+```text
 bank-marketing-analytics/
-|-- data/ # CSV datasets (bank_data.csv, job_summary.csv, edu_summary.csv)
-|-- notebooks/ # Jupyter notebook for data cleaning & EDA
-|-- powerbi/ # Power BI dashboard (.pbix file)
-|-- reports/ # PDF report 
-\-- requirements.txt # Python dependencies
+├── data/                     # CSV datasets (bank_data.csv, job_summary.csv, edu_summary.csv)
+├── notebooks/                # Jupyter notebook for data cleaning & EDA
+├── powerbi/                  # Power BI dashboard (.pbix file)
+├── reports/                  # PDF report and screenshot
+├── README.md                 # Project documentation
+└── requirements.txt          # Python dependencies
+```
 
 ---
 
@@ -47,5 +50,5 @@ bank-marketing-analytics/
 ---
 
 ### Power BI Dashboard Preview
-```markdown
+
 ![Dashboard Preview](reports/dashboard_preview.png)
